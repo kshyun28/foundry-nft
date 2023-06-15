@@ -21,7 +21,6 @@ Sample assets used are my own [Reddit Collectible Avatars](https://opensea.io/co
 1. Run tests: `forge test`
 2. Get test coverage: `forge coverage`
 
-
 ## Resources
 For learning how to do this, I followed these tutorials:
 - [RareSkills: Learn Solidity](https://www.rareskills.io/learn-solidity)

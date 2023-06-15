@@ -41,10 +41,10 @@ contract MyNFT is ERC721, Ownable {
     }
 
     function renounceOwnership() public pure override {
-        require(false, "cannot renounce");
+        revert("cannot renounce");
     }
 
     function transferOwnership(address newOwner) public pure override {
-        require(false, "cannot renounce");
+        revert("cannot renounce");
     }
 }
